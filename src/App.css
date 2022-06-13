@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  background-color: white;
+  height: 500px;
+  width: 1000px;
+  border-radius: 20px;
+}
+
+.women-desktop-image {
+  position: relative;
+  margin-left: 0;
 }
